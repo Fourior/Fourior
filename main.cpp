@@ -26,6 +26,5 @@ int main() {
 //    pointor();
 //    Async<std::string> *async = new Async<std::string>("zhy");
     std::shared_ptr<Async<std::string>> asyncPtr = std::make_shared<Async<std::string>>("zhangyu");
-
     return 0;
 }
