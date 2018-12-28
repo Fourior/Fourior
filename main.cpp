@@ -17,6 +17,7 @@ int pointor() {
     delete(pointer);
     pointer = NULL;
 
+
     std::cout << p2.get_name() << std::endl;
     return 0;
 }
